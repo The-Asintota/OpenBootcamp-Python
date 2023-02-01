@@ -10,4 +10,4 @@ estatura = int(estatura.strip('m'))
 
 imc = peso / (estatura ** 2)
 
-print('Tu índice de masa corporal es: ', imc)
+print(f'Tu índice de masa corporal es: {imc:.2f}')
